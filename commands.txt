@@ -1,32 +1,32 @@
 
 # Starting a project
-``cdk init sample-app --language python``
+cdk init sample-app --language python
 
 # Activate Virtual Environment
-``& f:/AWS/CDK/Eventlistener/.venv/Scripts/Activate.ps1``
+& f:/AWS/CDK/Eventlistener/.venv/Scripts/Activate.ps1
 
 # Download Requirements in venv
-``pip install -r requirements.txt``
+pip install -r requirements.txt
 Ctrl + Shift + P - Select Pyhton interpretor
 
 # Synthesize CF template
-``cdk synth``
+cdk synth
 
 # Creation of AWS resources
-``cdk bootstrap``
+cdk bootstrap
 
 # Deploying in account
-``cdk deploy``
+cdk deploy
 
 # Monitor changes using
-``cdk watch`` 
-``cdk  watch-stack``
+cdk watch 
+cdk  watch-stack
 
 # Viewing difference between deployments
-``cdk diff``
+cdk diff
 
 # Delete cdk app
-``cdk destroy``
+cdk destroy
 
 #Exit from venev
-``deactivate``
+deactivate
