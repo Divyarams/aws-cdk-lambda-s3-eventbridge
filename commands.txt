@@ -1,0 +1,4 @@
+& f:/AWS/CDK/Eventlistener/.venv/Scripts/Activate.ps1
+pip install -r requirements.txt
+
+deactivate
